@@ -1,0 +1,8 @@
+Trong đó: - G_c (s): Hàm truyền bộ điều khiển PID
+	- G_H (s): Hàm truyền mạch cầu H
+	- G_M (s): Hàm truyền động cơ và tải
+Ta có mô hình toán: 
+G(s)=ω(s)/(U(s))=K/(τs+1)
+Các thông số K, τ được tìm từ đồ thị động cơ thực tế: 
+- K=ω_max/U=1134/100=11.34
+- Thời điểm bắt đầu: τ_1=7.283 (s)
